@@ -18,7 +18,7 @@ class RegistroAutomovil {
     private String numeroChasis;
     private String color;
 
-    // Constructor
+   
     public RegistroAutomovil(int id, String marca, String modelo, int año, String tipo, String numeroChasis, String color) {
         this.id = id;
         this.marca = marca;
@@ -29,8 +29,7 @@ class RegistroAutomovil {
         this.color = color;
     }
 
-    // Getters y Setters
-    // Métodos para obtener y establecer los valores de los atributos
+   
 }
 
 class RegistroAutomoviles {
@@ -40,8 +39,7 @@ class RegistroAutomoviles {
         registros = new ArrayList<>();
     }
 
-    // Métodos para agregar, buscar y editar registros de automóviles
-}
+   
 
 class RegistroAutomovilesApp {
     private Scanner scanner;
